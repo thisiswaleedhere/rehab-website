@@ -7,7 +7,7 @@ import { clsx } from 'clsx/lite';
 function ServiceBlocks() {
 
     const servicesRef = useRef<HTMLDivElement>(null);
-    const { isIntersecting } = useIntersectionObserver(servicesRef, { threshold: 0.06 });
+    const { isIntersecting } = useIntersectionObserver(servicesRef, { threshold: 0.01 });
 
     return (
         <div ref={servicesRef} className="content-grid">

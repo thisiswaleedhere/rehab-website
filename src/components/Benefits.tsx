@@ -6,7 +6,7 @@ import { clsx } from 'clsx/lite';
 const Benefits = () => {
 
     const benefitsRef = useRef<HTMLDivElement>(null);
-    const { isIntersecting } = useIntersectionObserver(benefitsRef, { threshold: 0.1 });
+    const { isIntersecting } = useIntersectionObserver(benefitsRef, { threshold: 0.05 });
 
     return (
         <div ref={benefitsRef} className="content-grid benefits">

@@ -6,7 +6,7 @@ import { clsx } from 'clsx/lite';
 
 const CallToAction = () => {
     const contactRef = useRef<HTMLDivElement>(null);
-    const { isIntersecting } = useIntersectionObserver(contactRef, { threshold: 0.1 });
+    const { isIntersecting } = useIntersectionObserver(contactRef, { threshold: 0.05 });
 
     return (
         <div id="contact" ref={contactRef} className="calltoaction">

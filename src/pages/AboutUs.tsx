@@ -5,7 +5,7 @@ import useIntersectionObserver from '@react-hook/intersection-observer';
 const AboutUs = () => {
 
     const aboutusRef = useRef<HTMLDivElement>(null);
-    const { isIntersecting } = useIntersectionObserver(aboutusRef, { threshold: 0.3 });
+    const { isIntersecting } = useIntersectionObserver(aboutusRef, { threshold: 0.01 });
 
     return (
         <div ref={aboutusRef} id="aboutus" className="content-grid sectionblock aboutus">

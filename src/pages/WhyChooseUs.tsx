@@ -8,7 +8,7 @@ import { clsx } from 'clsx/lite';
 const WhyChooseUs = () => {
 
     const whychooseusRef = useRef<HTMLDivElement>(null);
-    const { isIntersecting } = useIntersectionObserver(whychooseusRef, { threshold: 0.1 });
+    const { isIntersecting } = useIntersectionObserver(whychooseusRef, { threshold: 0.05 });
 
     return (
         <div ref={whychooseusRef} className="sectionblock shapeanchor">

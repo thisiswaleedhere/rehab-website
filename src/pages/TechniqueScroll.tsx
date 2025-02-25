@@ -6,7 +6,7 @@ import { clsx } from 'clsx/lite';
 const TechniqueScroll = () => {
 
     const techniqueRef = useRef<HTMLDivElement>(null);
-    const { isIntersecting } = useIntersectionObserver(techniqueRef, { threshold: 0.1 });
+    const { isIntersecting } = useIntersectionObserver(techniqueRef, { threshold: 0.05 });
 
     return (
         <div ref={techniqueRef} className="sectionblock">

@@ -11,7 +11,7 @@ import { clsx } from 'clsx/lite';
 const Services = () => {
 
     const serviceRef = useRef<HTMLDivElement>(null);
-    const { isIntersecting } = useIntersectionObserver(serviceRef, { threshold: 0.1 });
+    const { isIntersecting } = useIntersectionObserver(serviceRef, { threshold: 0.01 });
 
     return (
         <div ref={serviceRef} id="services" className="sectionblock shapeanchor">
