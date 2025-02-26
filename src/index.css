@@ -197,7 +197,7 @@ a:not([class]) {
   gap: var(--grid-flow-gap, 1rem);
   justify-items: start;
 
-  >* {
+  &>* {
     margin: 0;
   }
 }
