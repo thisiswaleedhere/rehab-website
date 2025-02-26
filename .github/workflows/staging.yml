@@ -27,4 +27,3 @@ jobs:
         server: ftp.aysharehab.ae
         username: ${{ secrets.FTP_TEST_USERNAME }}
         password: ${{ secrets.FTP_TEST_PASSWORD }}
-        server-dir: /test.aysharehab.ae/

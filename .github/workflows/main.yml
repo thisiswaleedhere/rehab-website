@@ -27,4 +27,3 @@ jobs:
         server: ftp.aysharehab.ae
         username: ${{ secrets.FTP_PROD_USERNAME }}
         password: ${{ secrets.FTP_PROD_PASSWORD }}
-        server-dir: /public_html/
