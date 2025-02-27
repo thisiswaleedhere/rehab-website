@@ -43,7 +43,7 @@ function Footer() {
                         </div>
                         <div className='flex-group'>
                             <img src={mailicon} alt='' />
-                            <button type='button' title='Click to copy email id' onClick={() => handleCopy('aysharehabilitation@gmail.com')}> aysharehabilitation@gmail.com</button>
+                            <button type='button' title='Click to copy email id' onClick={() => handleCopy('info@aysharehab.ae')}> info@aysharehab.ae</button>
                         </div>
                         {copyStatus && <p className='copy-status'>{copyStatus}</p>}
                     </div>

@@ -27,7 +27,7 @@ const Contact = () => {
                     </h4>
                     <form>
                         <button type="button"
-                            onClick={() => { window.location.href = "mailto:aysharehabilitation@gmail.com?subject=Enquiry&body=hey%20there"; }}>
+                            onClick={() => { window.location.href = "mailto:info@aysharehab.ae?subject=Enquiry&body=hey%20there"; }}>
                             <img src={mailicon} alt="" />
                             Email Us
                         </button>
