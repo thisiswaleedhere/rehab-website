@@ -43,12 +43,9 @@ function Footer() {
                         </div>
                         <div className='flex-group'>
                             <img src={phoneicon} alt='' />
-                            <button type='button' title='Click to copy contact number' onClick={() => handleCopy('0568040286')}>(06) 804 0329</button>
+                            <button type='button' title='Click to copy contact number' onClick={() => handleCopy('068040329')}>(06) 804 0329</button>
                         </div>
-                        <div className='flex-group'>
-                            <img src={phoneicon} alt='' />
-                            <button type='button' title='Click to copy contact number' onClick={() => handleCopy('0547950747')}>054 795 0747</button>
-                        </div>
+
                         <div className='flex-group'>
                             <img src={mailicon} alt='' />
                             <button type='button' title='Click to copy email id' onClick={() => handleCopy('info@aysharehab.ae')}> info@aysharehab.ae</button>
