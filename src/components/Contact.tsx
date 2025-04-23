@@ -32,7 +32,7 @@ const Contact = () => {
                             Email Us
                         </button>
                         <button type="button" onClick={() => {
-                            window.open('tel:0547950747', '_self')
+                            window.open('tel:0568040286', '_self')
                         }}>
                             <img src={phoneicon} alt="" />
                             Call Us

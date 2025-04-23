@@ -39,6 +39,14 @@ function Footer() {
                     <div>
                         <div className='flex-group'>
                             <img src={phoneicon} alt='' />
+                            <button type='button' title='Click to copy contact number' onClick={() => handleCopy('0568040286')}>056 804 0286</button>
+                        </div>
+                        <div className='flex-group'>
+                            <img src={phoneicon} alt='' />
+                            <button type='button' title='Click to copy contact number' onClick={() => handleCopy('0568040286')}>(06) 804 0329</button>
+                        </div>
+                        <div className='flex-group'>
+                            <img src={phoneicon} alt='' />
                             <button type='button' title='Click to copy contact number' onClick={() => handleCopy('0547950747')}>054 795 0747</button>
                         </div>
                         <div className='flex-group'>
@@ -49,7 +57,7 @@ function Footer() {
                     </div>
                     <div>
                         <h4>Location</h4>
-                        <button type='button' title='Click to open the location in a new tab' onClick={() => window.open('https://maps.app.goo.gl/jYhmha1wq7wQEU68A', '_blank')}>
+                        <button type='button' title='Click to open the location in a new tab' onClick={() => window.open('https://maps.app.goo.gl/VRmDjjunMKkVFLht5', '_blank')}>
                             <p>Al Shamsi Building (Ground Floor)</p>
                             <p>Corniche Street</p>
                             <p>Al Majaz, Sharjah</p>
