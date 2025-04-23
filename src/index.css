@@ -319,8 +319,9 @@ header h2 {
   color: var(--clr-light);
 
   & img {
-    width: 25px;
-    margin-left: 10px;
+    width: 48px;
+    margin-left: 8px;
+    margin-top: 6px;
   }
 
   & img:nth-child(2) {
@@ -1358,7 +1359,7 @@ footer {
     }
 
     & img {
-      width: 2rem;
+      width: 4rem;
     }
 
     & h2 {
